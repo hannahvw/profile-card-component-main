@@ -1,0 +1,40 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --neutral-gray-color: hsl(0, 0%, 59%);
+    --primary-color-cyan: hsl(185, 75%, 39%);
+    --primary-color-blue: hsl(227, 10%, 46%);
+    --primary-color-dark-blue: hsl(229, 23%, 23%);
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--primary-color-cyan);
+}
+
+.profile-card-container {
+  background-color: white;
+  max-width: 350px;
+  height: 400px;
+  margin: 100px auto;
+  border-radius: 15px;
+}
+
+.card-background {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+}
