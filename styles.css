@@ -20,6 +20,7 @@
 }
 
 body {
+  max-width: 1440px;
   font-size: 18px;
   font-family: "Kumbh Sans", sans-serif;
   background-color: var(--primary-color-cyan);
@@ -28,23 +29,23 @@ body {
 
 .wallpaper-top {
   position: absolute;
-  left: -550px;
+  left: -375px;
   top: -450px;
   z-index: -1;
 }
 
 .wallpaper-bottom {
   position: absolute;
-  right: -375px;
-  bottom: -650px;
+  right: -250px;
+  bottom: -600px;
   z-index: -1;
 }
 
 .profile-card-container {
   background-color: white;
   max-width: 400px;
-  height: 50vh;
-  margin: 175px auto 15px;
+  height: 400px;
+  margin: 175px auto;
   border-radius: 15px;
 }
 
@@ -91,8 +92,9 @@ hr {
 .stats-container {
   display: flex;
   justify-content: space-around;
-  padding-top: 35px;
+  padding-top: 25px;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .stats {
@@ -110,4 +112,24 @@ hr {
   font-size: 0.7rem;
   letter-spacing: 0.1rem;
   color: var(--neutral-gray-color);
+}
+
+@media screen and (max-width: 375px) {
+  .profile-card-container {
+    max-width: 80%;
+    margin: 175px 0 20px 20px;
+  }
+  .wallpaper-top {
+    left: -750px;
+    top: -550px;
+  }
+
+  .wallpaper-bottom {
+    left: 175px;
+    top: 350px;
+  }
+  .attribution {
+    max-width: 250px;
+    margin: 30px auto;
+  }
 }
