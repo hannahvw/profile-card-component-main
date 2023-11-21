@@ -28,7 +28,7 @@ body {
 .profile-card-container {
   background-color: white;
   max-width: 400px;
-  height: 55vh;
+  height: 50vh;
   margin: 175px auto 15px;
   border-radius: 15px;
 }
@@ -49,17 +49,50 @@ body {
 
 .profile-info {
   line-height: 2rem;
-  margin: 10px auto 25px;
+  margin: 10px auto 35px;
   text-align: center;
 }
 
 .profile-info p:first-child {
   font-weight: 700;
+  color: var(--primary-color-dark-blue);
 }
 
 .profile-info span,
-p:last-child {
+.profile-info p:last-child {
   color: var(--neutral-gray-color);
   font-weight: 400;
   padding-left: 5px;
+}
+
+.profile-info p:last-child {
+    font-size: 1.1rem;
+}
+
+hr {
+  color: var(--neutral-gray-color);
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+  margin-right: 20px;
+}
+
+.stats {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.stats p:first-child {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: var(--primary-color-dark-blue);
+}
+
+.stats p:last-child {
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: var(--neutral-gray-color);
 }
