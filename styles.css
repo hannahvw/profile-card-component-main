@@ -23,6 +23,21 @@ body {
   font-size: 18px;
   font-family: "Kumbh Sans", sans-serif;
   background-color: var(--primary-color-cyan);
+  overflow: hidden;
+}
+
+.wallpaper-top {
+  position: absolute;
+  left: -550px;
+  top: -450px;
+  z-index: -1;
+}
+
+.wallpaper-bottom {
+  position: absolute;
+  right: -375px;
+  bottom: -650px;
+  z-index: -1;
 }
 
 .profile-card-container {
@@ -66,7 +81,7 @@ body {
 }
 
 .profile-info p:last-child {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 hr {
