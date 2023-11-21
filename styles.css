@@ -133,3 +133,14 @@ hr {
     margin: 30px auto;
   }
 }
+
+@media screen and (max-width: 1200px) {
+.wallpaper-top {
+    left: -550px;
+    top: -650px;
+  }
+
+  .wallpaper-bottom {
+    right: -550px;
+    bottom: -600px;
+}
